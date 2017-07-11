@@ -1,7 +1,7 @@
 module.exports = function main() {
     
-    a = 9;
-    b = 4;
-	c = 9%4;
+    var a = 9;
+    var b = 4;
+    var c = a%b;
 	return c;
 };
