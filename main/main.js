@@ -1,11 +1,9 @@
 module.exports = function main() {
     console.log("Debug Info");
     return 'Hello World!';
-    var a = '9';
-	a = Number(a);
-	var b = '4';
-	b = Number(b);
+    let a = 9;
+	b = 4;
 	c = Math.floor(a/b);
 	d = a-b*c;
-    return 'd';
+    return d;
 };
